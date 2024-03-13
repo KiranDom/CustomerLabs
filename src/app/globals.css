@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-drawer-footer {
+  padding: 0 !important;
+}
+
+.ant-badge-status-dot {
+  padding: 6px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.save-btn {
+  background: #41b494;
+  color: #fff;
+}
+
+.cancel-btn {
+  background: #fff;
+  color: red;
+}
+
+.ant-select-focused .ant-select-selector {
+  box-shadow: none !important;
+  border-color: #d9d9d9 !important;
+}
+
+.ant-select-selector:hover {
+  border-color: #d9d9d9 !important;
+}
+/* 
+.ant-select-selector:active {
+  border-color: grey !important;
+}
+
+.ant-select-selector:focus {
+  border-color: grey !important;
+} */

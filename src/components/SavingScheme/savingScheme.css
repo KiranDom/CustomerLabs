@@ -1,0 +1,49 @@
+.segment-input {
+  padding: 10px;
+}
+
+.segment-input::placeholder {
+  color: #b5bfcb;
+  box-shadow: none;
+}
+
+.segment-input:focus {
+  outline: none;
+  border-color: inherit;
+  box-shadow: none;
+}
+
+.segment-input:hover {
+  border-color: inherit;
+}
+
+.schema-btn {
+  color: #63c5ac;
+  position: relative;
+  font-weight: 600;
+  width: fit-content;
+}
+.schema-btn:active {
+  color: #63c5ac !important;
+}
+.schema-btn:hover {
+  color: #63c5ac !important;
+}
+
+.schema-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 75%;
+  height: 2px;
+  background-color: #63c5ac;
+  transform: translateX(-43%);
+}
+
+
+.dynamic-select-wrapper{
+  border: 2px solid #6fa8dc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
